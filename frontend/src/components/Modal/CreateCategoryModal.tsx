@@ -103,7 +103,6 @@ export function CreateCategoryModal({
               onChange={(e) => setDescription(e.target.value)}
               className="w-full min-h-12"
               disabled={loading}
-              required
             />
             <p className="text-sm text-gray-500 -mt-1">Opicional</p>
           </div>

@@ -2,4 +2,6 @@
 .env
 /node_modules
 schema.graphql
+/prisma/migrations
+database.sqlite
 

@@ -24,7 +24,7 @@ model User {
 model Category {
   id           String        @id @default(cuid())
   name         String
-  description  String
+  description  String?
   icon         String
   color        String
   userId       String
